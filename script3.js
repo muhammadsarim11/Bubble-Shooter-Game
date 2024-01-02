@@ -27,7 +27,7 @@ function runTimer(){
         }
         else{
             clearInterval(timeint);
-            document.querySelector("#pbotm").innerHTML = `<h1>Game Over</h1`;
+            document.querySelector("#pbotm").innerHTML = `<h1>Game Over <br> Your Score: ${score}</h1`;
         }
 },1000);
 }
